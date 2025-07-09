@@ -1,0 +1,31 @@
+{
+  "name": "fesival_musica",
+  "version": "1.0.0",
+  "description": "Pagina de eventos de musica en vivo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sass": "sass --watch src/sass/:build/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosOliveri/Fesival_Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Carlos Oliveri coliveri@fiuna.edu.py",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosOliveri/Fesival_Musica/issues"
+  },
+  "homepage": "https://github.com/CarlosOliveri/Fesival_Musica#readme",
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.89.2"
+  }
+}
